@@ -19,22 +19,23 @@ foo:
         url: /child-3-page-url/
 
 
-# main links links
+# main links
 main:
-  - title: "Quick-Start Guide"
-    url: /docs/quick-start-guide/
+  - title: "Home"
+    url: /
 
-  - title: "About"
-    url: /about/
+  - title: "Research"
+    url: /research/
 
-  - title: "Sample Posts"
-    url: /year-archive/
+  - title: "Publications"
+    url: /publications/
 
-  - title: "Sample Collections"
-    url: /collection-archive/
+  - title: "Teaching"
+    url: /teaching/
 
-  - title: "Terms &amp; Privacy Policy"
-    url: /terms/
+  - title: "Contact"
+    url: /contact/
+
 
 
 # documentation links
