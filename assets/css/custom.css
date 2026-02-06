@@ -1,4 +1,11 @@
-/* Push top navigation menu to the right */
+/* Right-align the top navigation items */
 .masthead__menu {
-  margin-left: auto;
+  display: flex !important;
+  justify-content: flex-end !important;
+  width: 100% !important;
+}
+
+/* Keep the site title/logo on the left, and push menu to the right */
+.masthead__menu-item {
+  margin-left: 0.75rem;
 }
