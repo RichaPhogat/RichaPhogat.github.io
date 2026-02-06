@@ -1,7 +1,7 @@
 ---
 layout: splash
 title: "Richa Phogat"
-excerpt: "Computational Neuroscience | Data Science"
+excerpt: "Computational Neuroscience"
 header:
   overlay_image: /assets/images/hero.jpg
   overlay_filter: 0.35
