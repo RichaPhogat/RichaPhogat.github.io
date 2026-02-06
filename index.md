@@ -16,8 +16,8 @@ I am a researcher working in computational neuroscience. I use biophysically gro
 - Data-driven modeling of neural signals  
 
 ## Selected Work
-- **Project 1:** Unifying framework for cortico-hippocampal interactions  
-- **Project 2:** Mechanistic underpinnings of travelling waves in the cortex 
+- **Project 1:** Unifying frameworks for cortico-subcortical interactions  
+- **Project 2:** Mechanistic underpinnings of travelling waves in the brain 
 
 ## Contact
 Email: riphogat@gmail.com  
