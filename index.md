@@ -8,7 +8,7 @@ header:
 ---
 
 ## About
-I am a researcher working in computational neuroscience. I focus on large-scale brain dynamics using neural data and dynamical systems models. The primary focus of my research has been to gain mechanistic insight into neural dynamics with the help of these models.
+I am a researcher working in computational neuroscience. I use biophysically grounded models to understand how brain dynamics emerge and how they are shaped by coupling, geometry, and external stimulation. I am particularly interested in how and when perturbations such as sensory stimulation, noise, or a disrupted neurotransmitter balance produce qualitatively new brain states. Another central challenge and motivation, therefore, becomes the development of inference methods that can reliably distinguish genuine state transitions from spurious structure arising from spatial autocorrelation or preprocessing artefacts in neuroimaging data.
 
 ## Research Interests
 - Neural mass and neural field models  
