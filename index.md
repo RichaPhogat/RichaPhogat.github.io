@@ -8,7 +8,7 @@ header:
 ---
 
 ## About
-I am a researcher working in computational neuroscience and data science, with interests in dynamical systems, neural field models, and large-scale brain dynamics.
+I am a researcher working in computational neuroscience. I focus on large-scale brain dynamics using neural data and dynamical systems models. The primary focus of my research has been to gain mechanistic insight into neural dynamics with the help of these models.
 
 ## Research Interests
 - Neural mass and neural field models  
@@ -16,10 +16,9 @@ I am a researcher working in computational neuroscience and data science, with i
 - Data-driven modeling of neural signals  
 
 ## Selected Work
-- **Project 1:** Short description  
-- **Project 2:** Short description  
-- **Project 3:** Short description  
+- **Project 1:** Unifying framework for cortico-hippocampal interactions  
+- **Project 2:** Mechanistic underpinnings of travelling waves in the cortex 
 
 ## Contact
-Email: your@email.com  
+Email: riphogat@gmail.com  
 GitHub: https://github.com/RichaPhogat
