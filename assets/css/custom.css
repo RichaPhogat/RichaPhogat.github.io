@@ -1,3 +1,5 @@
+html { outline: 10px solid red !important; }
+
 /* Right-align the top navigation items */
 .masthead__menu {
   display: flex !important;
