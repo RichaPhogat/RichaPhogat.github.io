@@ -7,12 +7,21 @@ header:
 ---
 
 ## About
-I am a researcher working in computational neuroscience. I use biophysically grounded models to understand how brain dynamics emerge and how they are shaped by coupling, geometry, and external stimulation. I am particularly interested in how and when perturbations such as sensory stimulation, noise, or a disrupted neurotransmitter balance produce new brain states. Another central challenge and motivation, therefore, becomes the development of inference methods that can reliably distinguish genuine state transitions from spurious structure arising from spatial autocorrelation or preprocessing artefacts in neuroimaging data.
+I study how large-scale brain dynamics emerge from the interaction between neural geometry, coupling, and nonlinear population dynamics. My work uses biophysically grounded neural field and neural mass models to explain how phenomena such as traveling waves, entrainment, and critical state transitions in cortical and hippocampal systems emerge dynamically.
+
+These phenomena can sometimes masquerade as functional structure or state changes in neuroimaging data. By combining theory, numerical modeling, and neuroimaging data, I aim to develop principled inference methods that distinguish genuine dynamical brain states from artefacts arising due to spatial autocorrelation, stimulation protocols, or preprocessing choices. This work has implications for how we interpret large-scale brain organization in both healthy cognition and pathological states.
 
 ## Research Interests
-- Neural mass and neural field models  
-- Brain oscillations and large-scale networks  
-- Data-driven modeling of neural signals  
+
+**1. Brain dynamics and state transitions**  
+I study how brain states emerge, reorganise, and break down in neural systems, which are inherently very non-linear. My work focuses on understanding the mechanisms underlying the transitions between regimes of neural activity and identifying when these transitions reflect genuine changes in underlying neural mechanisms.
+
+**2. Dynamical modelling**  
+I use dynamical systems models such as neural field theory, neural mass models, or single neuron models to study brain activity. My recent work focuses on understanding how cortical folding, surface geometry, and coupling constrain the dynamics of these systems. 
+
+**3. Entrainment, perturbations, and inference**  
+I investigate how external perturbations, such as sensory stimulation or noise, interact with intrinsic brain dynamics. This includes studying entrainment, bifurcations, and nonlinear responses, and using these effects to probe the stability of large-scale brain states and the limits of dynamical inference.
+
 
 ## Selected Work
 - **Project 1:** Unifying frameworks for cortico-subcortical interactions  
