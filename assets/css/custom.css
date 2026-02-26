@@ -1,26 +1,16 @@
 /* Right-align the top navigation items */
 /* --- Masthead layout: title left, nav pushed to the right --- */
-.masthead__inner-wrap {
+.masthead {
   display: flex !important;
   align-items: center !important;
 }
 
-/* Keep site title/logo hard-left */
-.masthead__menu .site-title,
-.masthead__menu .site-title-wrap {
+.masthead .site-title {
   margin-right: auto !important;
 }
 
-/* Push the nav group toward the right */
 .masthead__menu ul {
-  margin-left: auto !important;
-}
-
-/* Optional: control how far from center it starts */
-@media (min-width: 768px) {
-  .masthead__menu ul {
-    margin-left: 20vw !important; /* increase for more "middle-start" */
-  }
+  margin-left: 20vw !important;
 }
 /* --- Social SVG icon sizing (X, YouTube, Scholar) --- */
 .author__urls-wrapper .social-svg,
