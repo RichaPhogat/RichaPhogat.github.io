@@ -10,17 +10,20 @@
   margin-left: 0.75rem;
 }
 /* --- Social SVG icon sizing (X, YouTube, Scholar) --- */
-.author__urls .social-svg{
+.author__urls-wrapper .social-svg,
+.author__urls .social-svg,
+.social-icons .social-svg {
   width: 1em !important;
   height: 1em !important;
   display: inline-block !important;
-  vertical-align: -0.125em;
-  margin-right: .5em;
-  fill: currentColor;
+  vertical-align: -0.125em !important;
+  margin-right: .5em !important;
+  fill: currentColor !important;
 }
 
-/* Prevent SVGs from behaving like big blocks */
-.author__urls a .social-svg{
-  max-width: 1em !important;
-  max-height: 1em !important;
+.author__urls-wrapper a,
+.author__urls a,
+.social-icons a {
+  display: inline-flex;
+  align-items: center;
 }
