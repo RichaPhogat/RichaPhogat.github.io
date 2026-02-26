@@ -44,3 +44,22 @@
   font-size: 1rem !important;     /* keeps icon tied to normal text */
   line-height: 1.2 !important;
 }
+
+/* --- Force sidebar social SVGs (X/Scholar/YouTube) to behave like FA icons --- */
+.author__urls.social-icons li a svg.social-svg {
+  width: 16px !important;
+  height: 16px !important;
+  max-width: 16px !important;
+  max-height: 16px !important;
+  display: inline-block !important;
+  vertical-align: -2px !important;
+  margin-right: 8px !important;
+  fill: #7a8288 !important;     /* matches theme icon grey */
+}
+
+/* Make sure the link text layout stays inline and compact */
+.author__urls.social-icons li a {
+  display: inline-flex !important;
+  align-items: center !important;
+  line-height: 1.4 !important;
+}
