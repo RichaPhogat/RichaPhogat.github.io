@@ -1,5 +1,3 @@
-html { outline: 10px solid red !important; }
-
 /* Right-align the top navigation items */
 .masthead__menu {
   display: flex !important;
@@ -10,4 +8,19 @@ html { outline: 10px solid red !important; }
 /* Keep the site title/logo on the left, and push menu to the right */
 .masthead__menu-item {
   margin-left: 0.75rem;
+}
+/* --- Social SVG icon sizing (X, YouTube, Scholar) --- */
+.author__urls .social-svg{
+  width: 1em !important;
+  height: 1em !important;
+  display: inline-block !important;
+  vertical-align: -0.125em;
+  margin-right: .5em;
+  fill: currentColor;
+}
+
+/* Prevent SVGs from behaving like big blocks */
+.author__urls a .social-svg{
+  max-width: 1em !important;
+  max-height: 1em !important;
 }
