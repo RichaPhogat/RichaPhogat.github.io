@@ -87,7 +87,14 @@
         <li><a href="https://steamcommunity.com/id/{{ author.steam }}"><i class="fa fa-fw fa-steam-square" aria-hidden="true"></i> Steam</a></li>
       {% endif %}
       {% if author.youtube %}
-        <li><a href="https://www.youtube.com/{{ author.youtube }}"><i class="fa fa-fw fa-youtube" aria-hidden="true"></i> YouTube</a></li>
+      <li>
+        <a href="https://www.youtube.com/@{{ author.youtube | remove: '@' }}">
+          <svg class="social-svg" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M23.5 6.2s-.2-1.7-.8-2.4c-.8-.9-1.7-.9-2.1-1C16.8 2.5 12 2.5 12 2.5h0s-4.8 0-8.6.3c-.4.1-1.3.1-2.1 1C.7 4.5.5 6.2.5 6.2S0 8.1 0 10v1.9c0 1.9.5 3.8.5 3.8s.2 1.7.8 2.4c.8.9 1.9.9 2.4 1 1.7.2 7.3.3 8.3.3 0 0 4.8 0 8.6-.3.4-.1 1.3-.1 2.1-1 .6-.7.8-2.4.8-2.4S24 13.8 24 11.9V10c0-1.9-.5-3.8-.5-3.8zM9.5 14.6V7.8l6.3 3.4-6.3 3.4z"></path>
+          </svg>
+          YouTube
+        </a>
+      </li>
       {% endif %}
       {% if author.soundcloud %}
         <li><a href="https://soundcloud.com/{{ author.soundcloud }}"><i class="fa fa-fw fa-soundcloud" aria-hidden="true"></i> Soundcloud</a></li>
