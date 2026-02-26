@@ -27,3 +27,20 @@
   display: inline-flex;
   align-items: center;
 }
+
+/* HARD RESET for SVG icons in the author sidebar */
+.author__urls.social-icons svg {
+  width: 1em !important;
+  height: 1em !important;
+  max-width: 1em !important;
+  max-height: 1em !important;
+}
+
+.author__urls.social-icons svg * {
+  vector-effect: non-scaling-stroke;
+}
+
+.author__urls.social-icons li a {
+  font-size: 1rem !important;     /* keeps icon tied to normal text */
+  line-height: 1.2 !important;
+}
