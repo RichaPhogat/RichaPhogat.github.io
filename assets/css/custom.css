@@ -57,7 +57,7 @@
   display: inline-block !important;
   vertical-align: -2px !important;
   margin-right: 8px !important;
-  fill: #7a8288 !important;     /* matches theme icon grey */
+  fill: currentColor !important;   /* <— keep this */
 }
 
 /* Make sure the link text layout stays inline and compact */
