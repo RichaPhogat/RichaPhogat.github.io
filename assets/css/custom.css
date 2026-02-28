@@ -176,23 +176,32 @@ html, body {
   border-bottom: none !important;
 }
 
-/* Nav link colors for cream background */
+/* ===== Fix the white strip behind the top menu (greedy-nav) ===== */
+.masthead,
+.masthead__inner-wrap,
+.masthead__menu,
+.greedy-nav,
+.greedy-nav .visible-links,
+.greedy-nav .hidden-links {
+  background: var(--cream) !important;
+}
+
+/* Make nav text readable on cream */
+.greedy-nav a,
+.greedy-nav a:visited,
 .masthead a,
 .masthead a:visited {
   color: var(--text) !important;
 }
-.masthead a:hover {
-  color: var(--sage) !important;
-}
 
-/* Keep your name dull pink */
+/* Optional: keep your name dull pink in the top nav */
 .masthead .site-title,
-.masthead .site-title:visited {
+.masthead .site-title:visited,
+.greedy-nav .site-title,
+.greedy-nav .site-title:visited {
   color: var(--pink) !important;
 }
-.masthead__menu ul {
-  background: transparent !important;
-}
+
 
 /* ===== Typography: boutique-style headings ===== */
 :root{
