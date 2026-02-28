@@ -436,3 +436,20 @@ img.author__avatar{
   opacity: 1 !important;
   filter: none !important;
 }
+
+/* Author sidebar: prevent any parent-level fading/filtering */
+.sidebar,
+.sidebar * {
+  opacity: 1 !important;
+  filter: none !important;
+  -webkit-filter: none !important;
+}
+
+/* Specifically ensure avatar container isn't filtered */
+.sidebar .author__avatar,
+.sidebar .author__avatar a,
+.sidebar .author__avatar img {
+  opacity: 1 !important;
+  filter: none !important;
+  -webkit-filter: none !important;
+}
