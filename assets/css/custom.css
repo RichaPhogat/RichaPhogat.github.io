@@ -196,3 +196,7 @@ h1, h2, h3, h4,
   content: none !important;
   display: none !important;
 }
+
+.publications-page .page__content{
+  padding-top: 0 !important;
+}
