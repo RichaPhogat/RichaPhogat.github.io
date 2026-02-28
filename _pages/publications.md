@@ -44,8 +44,6 @@ author_profile: true
 
 <p>S. Basu, <span class="author-highlight">R. Phogat</span>, B. Banerjee, P. Parmananda (2024). <strong>Visual entrainment improving working memory of children with and without ADHD/ASD</strong>. <em>Journal of Indian Association for Child and Adolescent Mental Health</em>.</p>
 
-<p><span class="author-highlight">R. Phogat</span>, P. Parmananda, A. Prasad (2023). <strong>Potential landscapes and the visual cortex: A study of brain wave entrainment using Neural Mass Models</strong>. <em>APS March Meeting</em>.</p>
-
 
 <h2>2023</h2>
 
