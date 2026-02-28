@@ -25,16 +25,16 @@ main:
     url: /
 
   - title: "Research"
-    url: /research/
+    url: /Research/
 
   - title: "Publications"
-    url: /publications/
+    url: /Publications/
 
-  - title: "Teaching"
-    url: /teaching/
+  - title: "Mentoring"
+    url: /Mentoring/
 
-  - title: "Contact"
-    url: /contact/
+  - title: "News"
+    url: /News/
 
 
 
