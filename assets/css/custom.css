@@ -8,37 +8,9 @@
 }
 
 /* ===== Global background + default text ===== */
-body {
+html, body {
   background: var(--cream) !important;
   color: var(--text) !important;
-}
-
-/* ===== Masthead (top bar) ===== */
-.masthead {
-  background: var(--sage) !important;
-  border-bottom: none !important;
-}
-
-/* Nav links in masthead */
-.masthead a,
-.masthead a:visited {
-  color: var(--cream) !important;
-}
-
-.masthead a:hover {
-  opacity: 0.85;
-}
-
-/* ===== Make your name "Richa Phogat" dull pink ===== */
-/* Top-left site title */
-.masthead .site-title,
-.masthead .site-title:visited {
-  color: var(--pink) !important;
-}
-
-/* Sidebar author name */
-.author__name {
-  color: var(--pink) !important;
 }
 
 /* ===== Body links ===== */
@@ -50,7 +22,7 @@ body {
   text-decoration: underline;
 }
 
-/* ===== Buttons (optional, but matches vibe) ===== */
+/* ===== Buttons ===== */
 .btn, .btn:visited {
   background: var(--sage) !important;
   color: var(--cream) !important;
@@ -60,21 +32,77 @@ body {
   opacity: 0.9;
 }
 
-/* Right-align the top navigation items */
-/* --- Masthead layout: title left, nav pushed to the right --- */
+/* =========================================================
+   MASTHEAD (TOP MENU) — cream background
+   ========================================================= */
 .masthead {
+  background: var(--cream) !important;
+  border-bottom: 1px solid rgba(0,0,0,0.06) !important;
+
+  /* layout: title left, menu pushed right */
   display: flex !important;
   align-items: center !important;
 }
 
+/* Make the site title hug the left and push menu away */
 .masthead .site-title {
   margin-right: auto !important;
 }
 
-.masthead__menu ul {
-  margin-left: 20vw !important;
+/* masthead links should be dark/grey for cream bg */
+.masthead a,
+.masthead a:visited {
+  color: var(--text) !important;
 }
-/* --- Social SVG icon sizing (X, YouTube, Scholar) --- */
+.masthead a:hover {
+  opacity: 0.85;
+}
+
+/* Top-left site title in dull pink */
+.masthead .site-title,
+.masthead .site-title:visited {
+  color: var(--pink) !important;
+}
+
+/* Optional: spacing tweak for nav row */
+.masthead__menu ul {
+  margin-left: 20vw !important; /* adjust or remove if you want tighter/looser */
+}
+
+/* =========================================================
+   HERO / BANNER (big region behind large "Richa Phogat")
+   Make it sage (green) instead of grey
+   ========================================================= */
+.page__hero,
+.page__hero--overlay,
+.page__hero--overlay::before,
+.page__hero--overlay::after,
+.page__hero--overlay .wrapper {
+  background: var(--sage) !important;
+}
+
+/* Hero text on sage should be cream */
+.page__hero,
+.page__hero--overlay,
+.page__hero--overlay .page__title,
+.page__hero--overlay .page__lead,
+.page__hero--overlay .page__meta {
+  color: var(--cream) !important;
+}
+
+/* =========================================================
+   AUTHOR SIDEBAR NAME — dull pink
+   ========================================================= */
+.author__name {
+  color: var(--pink) !important;
+}
+
+/* =========================================================
+   SOCIAL ICONS (X / Scholar / YouTube SVGs + FA icons)
+   Keep them small and consistent grey
+   ========================================================= */
+
+/* SVG icons sizing */
 .author__urls-wrapper .social-svg,
 .author__urls .social-svg,
 .social-icons .social-svg {
@@ -86,14 +114,15 @@ body {
   fill: currentColor !important;
 }
 
+/* Keep icon + text aligned */
 .author__urls-wrapper a,
 .author__urls a,
 .social-icons a {
-  display: inline-flex;
-  align-items: center;
+  display: inline-flex !important;
+  align-items: center !important;
 }
 
-/* HARD RESET for SVG icons in the author sidebar */
+/* Hard reset for any SVGs in author sidebar */
 .author__urls.social-icons svg {
   width: 1em !important;
   height: 1em !important;
@@ -101,16 +130,13 @@ body {
   max-height: 1em !important;
 }
 
-.author__urls.social-icons svg * {
-  vector-effect: non-scaling-stroke;
-}
-
+/* Keep link text sizing consistent */
 .author__urls.social-icons li a {
-  font-size: 1rem !important;     /* keeps icon tied to normal text */
-  line-height: 1.2 !important;
+  font-size: 1rem !important;
+  line-height: 1.4 !important;
 }
 
-/* --- Force sidebar social SVGs (X/Scholar/YouTube) to behave like FA icons --- */
+/* Force the sidebar SVGs to behave like FA icons (16px) */
 .author__urls.social-icons li a svg.social-svg {
   width: 16px !important;
   height: 16px !important;
@@ -119,19 +145,12 @@ body {
   display: inline-block !important;
   vertical-align: -2px !important;
   margin-right: 8px !important;
-  fill: currentColor !important;   /* <— keep this */
+  fill: currentColor !important;
 }
 
-/* Make sure the link text layout stays inline and compact */
-.author__urls.social-icons li a {
-  display: inline-flex !important;
-  align-items: center !important;
-  line-height: 1.4 !important;
-}
-
-/* Make ALL sidebar social icons one consistent color */
+/* Make ALL sidebar social icons one consistent muted grey */
 .author__urls.social-icons li a i,
 .author__urls.social-icons li a svg.social-svg {
-  color: #7a8288 !important;
+  color: var(--muted) !important;
   fill: currentColor !important;
 }
