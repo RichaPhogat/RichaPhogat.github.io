@@ -176,3 +176,8 @@ h1, h2, h3, h4,
 .page__content{
   padding-top: 0 !important;
 }
+
+/* Hide text site title */
+.masthead .site-title{
+  display: none !important;
+}
