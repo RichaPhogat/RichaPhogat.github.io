@@ -23,7 +23,7 @@ author_profile: true
 
 <h2>2025</h2>
 
-<p><span class="author-highlight">Phogat, R.</span>, Behler A., Sonkusare S., Pang J.C., Koussis N., Roberts J.A., DeKraker J., Shine J.M., Fornito A., Robinson P.A., Breakspear M. (2025). <strong>A unified model of cortico-hippocampal interactions through neural field theory</strong>. <em>bioRxiv</em>.</p>
+<p><span class="author-highlight">R. Phogat</span>, A. Behler, S. Sonkusare, J.C. Pang, N. Koussis, J.A. Roberts, J. DeKraker, J.M. Shine, A. Fornito, P.A. Robinson, M. Breakspear (2025). <strong>A unified model of cortico-hippocampal interactions through neural field theory</strong>. <em>bioRxiv</em>.</p>
 
 <p>Sonkusare S., Iyer K., Hearne L., <span class="author-highlight">Phogat, R.</span>, van der Meer J., Dionisio S., Shine J.M., Breakspear M. (2025). <strong>Brain-heart coupling shapes large scale brain dynamics</strong>. <em>bioRxiv</em>.</p>
 
