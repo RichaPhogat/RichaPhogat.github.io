@@ -176,27 +176,3 @@ h1, h2, h3, h4,
 .page__content{
   padding-top: 0 !important;
 }
-
-/* Keep only the author photo unfaded */
-.author__avatar img{
-  opacity: 1 !important;
-  filter: none !important;
-  -webkit-filter: none !important;
-}
-
-/* Prevent hover from re-applying any fade */
-.author__avatar img:hover{
-  opacity: 1 !important;
-  filter: none !important;
-}
-
-/* If there is an overlay layer on the avatar */
-.author__avatar a::before,
-.author__avatar::before{
-  content: none !important;
-  display: none !important;
-}
-
-.publications-page .page__content{
-  padding-top: 0 !important;
-}
