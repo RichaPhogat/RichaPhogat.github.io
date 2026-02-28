@@ -58,7 +58,7 @@ yandex_site_verification :
 twitter:
   username: &twitter "phogat_richa"
 facebook:
-  username               : &facebook "michaelrose"
+  username               : 
   app_id                 :
   publisher              :
 og_image                 : "site-logo.png" # Open Graph/Twitter default site image
@@ -84,7 +84,7 @@ author:
   name             : *name
   avatar           : "michael-rose.jpg"
   bio              : 
-  location         : "Newcastle, Australia"
+  location         : "Australia"
   email            :
   uri              : 
   bitbucket        :
