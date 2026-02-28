@@ -3,6 +3,7 @@ title: ""
 permalink: /publications/
 layout: single
 author_profile: true
+header: false
 classes: publications-page
 ---
 
