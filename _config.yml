@@ -83,7 +83,7 @@ analytics:
 author:
   name             : *name
   avatar           : "michael-rose.jpg"
-  bio              : "Just another boring, space-time traveller."
+  bio              : 
   location         : "Newcastle, Australia"
   email            :
   uri              : 
