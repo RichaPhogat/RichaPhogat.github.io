@@ -31,7 +31,7 @@ body{
   color: var(--cream) !important;
   border: 0 !important;
 }
-.btn:hover{ opacity: 1; }
+.btn:hover{ opacity: 0.9; }
 
 /* =========================================================
    MASTHEAD / TOP NAV (sage strip like your screenshots)
@@ -63,7 +63,7 @@ body{
 }
 .masthead a:hover,
 .greedy-nav a:hover{
-  opacity: 1;
+  opacity: 0.85;
 }
 
 /* Site title in dull pink */
@@ -190,10 +190,20 @@ h1, h2, h3, h4,
 }
 
 .page__footer a:hover{
-  opacity: 1;
+  opacity: 0.85;
 }
 
 /* Hide text site title */
 .masthead .site-title{
   display: none !important;
+}
+
+/* Author photo: force fully vivid rendering */
+.author__avatar img,
+img.author__avatar{
+  opacity: 1 !important;
+  filter: none !important;
+  -webkit-filter: none !important;
+  mix-blend-mode: normal !important;
+  transform: none !important;
 }
