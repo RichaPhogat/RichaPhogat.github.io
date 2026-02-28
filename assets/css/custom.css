@@ -252,3 +252,19 @@ h2, h3{
   border: 0;
   border-top: 1px solid rgba(79,100,97,0.18);
 }
+
+
+/* Bigger section headings like ABOUT / RESEARCH INTERESTS */
+.page__content h2 {
+  font-size: 2.2rem !important;   /* try 2.0–2.6 */
+  letter-spacing: 0.08em;         /* keeps that spaced-out look */
+  line-height: 1.15;
+  margin-top: 2.2rem;
+  margin-bottom: 0.8rem;
+}
+
+/* If some pages use h3 for those headings, bump those too */
+.page__content h3 {
+  font-size: 1.6rem !important;
+  letter-spacing: 0.06em;
+}
