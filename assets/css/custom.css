@@ -31,7 +31,7 @@ body{
   color: var(--cream) !important;
   border: 0 !important;
 }
-.btn:hover{ opacity: 0.9; }
+.btn:hover{ opacity: 1; }
 
 /* =========================================================
    MASTHEAD / TOP NAV (sage strip like your screenshots)
