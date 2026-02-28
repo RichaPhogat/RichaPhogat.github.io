@@ -10,6 +10,7 @@ stylesheets:
 
 # Site Settings
 title: "Richa Phogat"
+logo: "/images/background_removed_pink_logo.png"
 name: &name "Richa Phogat"
 description: &description "Computational Neuroscience | Data Science"
 url: "https://richaphogat.github.io"
