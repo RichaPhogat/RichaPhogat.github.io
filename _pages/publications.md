@@ -1,7 +1,7 @@
 ---
 title: ""
 permalink: /publications/
-layout: single
+layout: splash
 header: false
 classes: publications-page
 ---
