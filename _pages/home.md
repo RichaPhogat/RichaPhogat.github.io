@@ -4,7 +4,7 @@ title: " "   # keeps the big title from showing
 header:
   overlay_color: "#4F6461"   # your sage/teal
   overlay_filter: 0.0        # 0 = no dark overlay on top of the image
-  overlay_image: /assets/images/your-photo.jpg
+  overlay_image: /assets/images/brain-photo.jpg
   image_description: "Header photo"
 ---
 
