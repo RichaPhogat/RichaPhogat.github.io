@@ -1,6 +1,7 @@
 ---
 layout: splash
 title: "Richa Phogat"
+author_profile: true
 header:
   overlay_image: /assets/images/hero.jpg
   overlay_filter: 0.35
