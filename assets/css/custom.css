@@ -207,3 +207,232 @@ img.author__avatar{
   mix-blend-mode: normal !important;
   transform: none !important;
 }
+
+/* ===== Palette ===== */
+:root{
+  --cream: #F4EFE6;
+  --sage:  #4F6461;
+  --text:  #2B2B2B;
+  --muted: #7A8288;
+  --pink:  #B07A8C; /* dull pink */
+}
+
+/* ===== Base page ===== */
+html, body{
+  background: var(--cream) !important;
+  color: var(--text) !important;
+}
+
+/* Body font (clean) */
+body{
+  font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif !important;
+}
+
+/* ===== Content links ===== */
+.page__content a{
+  color: var(--sage) !important;
+  text-decoration: none;
+}
+.page__content a:hover{ text-decoration: underline; }
+
+/* ===== Buttons ===== */
+.btn, .btn:visited{
+  background: var(--sage) !important;
+  color: var(--cream) !important;
+  border: 0 !important;
+}
+.btn:hover{ opacity: 0.9; }
+
+/* =========================================================
+   MASTHEAD / TOP NAV (sage strip like your screenshots)
+   ========================================================= */
+.masthead,
+.masthead__inner-wrap,
+.masthead__menu,
+.greedy-nav,
+.greedy-nav .visible-links,
+.greedy-nav .hidden-links{
+  background: var(--sage) !important;
+  box-shadow: none !important;
+  border-bottom: none !important;
+}
+
+/* Layout: title left, menu pushed right */
+.masthead{
+  display: flex !important;
+  align-items: center !important;
+}
+.masthead .site-title{ margin-right: auto !important; }
+
+/* Nav links readable on sage (your screenshots show dark text) */
+.masthead a,
+.masthead a:visited,
+.greedy-nav a,
+.greedy-nav a:visited{
+  color: var(--text) !important;
+}
+.masthead a:hover,
+.greedy-nav a:hover{
+  opacity: 0.85;
+}
+
+/* Site title in dull pink */
+.masthead .site-title,
+.masthead .site-title:visited,
+.greedy-nav .site-title,
+.greedy-nav .site-title:visited{
+  color: var(--pink) !important;
+}
+
+/* Optional: spacing tweak for nav row (keep/remove to taste) */
+.masthead__menu ul{
+  margin-left: 20vw !important;
+}
+
+/* =========================================================
+   TYPOGRAPHY: boutique-style headings
+   ========================================================= */
+h1, h2, h3, h4,
+.page__title,
+.archive__subtitle,
+.page__content h1,
+.page__content h2,
+.page__content h3{
+  font-family: "Cormorant Garamond", Georgia, serif !important;
+  color: var(--sage) !important;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* Title sizing */
+.page__title, h1{
+  font-size: 2.2rem !important;
+}
+
+/* Big section headings like ABOUT / RESEARCH INTERESTS */
+.page__content h2{
+  font-size: 2.2rem !important;
+  letter-spacing: 0.08em;
+  line-height: 1.15;
+  margin-top: 2.2rem;
+  margin-bottom: 0.8rem;
+  font-weight: 500 !important;
+}
+
+/* If some pages use h3 for those headings */
+.page__content h3{
+  font-size: 1.6rem !important;
+  letter-spacing: 0.06em;
+  margin-top: 1.2rem;
+  font-weight: 500 !important;
+}
+
+/* Paragraph readability */
+.page__content p{
+  line-height: 1.75 !important;
+  font-weight: 400 !important;
+}
+
+/* Subtle section divider */
+.page__content hr{
+  border: 0;
+  border-top: 1px solid rgba(79,100,97,0.18);
+}
+
+/* =========================================================
+   SIDEBAR ACCENTS
+   ========================================================= */
+.author__name{
+  color: var(--pink) !important;
+}
+
+/* Social icons: aligned, consistent, muted */
+.author__urls-wrapper a,
+.author__urls a,
+.social-icons a{
+  display: inline-flex !important;
+  align-items: center !important;
+}
+
+/* Force sidebar SVGs to a consistent size (similar to FA) */
+.author__urls.social-icons li a svg.social-svg{
+  width: 16px !important;
+  height: 16px !important;
+  max-width: 16px !important;
+  max-height: 16px !important;
+  display: inline-block !important;
+  vertical-align: -2px !important;
+  margin-right: 8px !important;
+  fill: currentColor !important;
+}
+
+/* Make ALL sidebar social icons one consistent muted grey */
+.author__urls.social-icons li a i,
+.author__urls.social-icons li a svg.social-svg{
+  color: var(--muted) !important;
+  fill: currentColor !important;
+}
+
+/* =========================================================
+   REMOVE HERO (big intro stripe) — matches your screenshots
+   ========================================================= */
+.page__hero,
+.page__hero--overlay,
+.page__hero--large{
+  display: none !important;
+}
+
+/* Remove extra spacing the hero can leave behind */
+.page__content{
+  padding-top: 0 !important;
+}
+
+/* Footer: match sage/teal masthead */
+.page__footer{
+  background: var(--sage) !important;
+  color: var(--cream) !important;
+  border-top: none !important;
+}
+
+.page__footer a,
+.page__footer a:visited{
+  color: var(--cream) !important;
+}
+
+.page__footer a:hover{
+  opacity: 0.85;
+}
+
+/* Hide text site title */
+.masthead .site-title{
+  display: none !important;
+}
+
+/* Author photo: force fully vivid rendering */
+.author__avatar img,
+img.author__avatar{
+  opacity: 1 !important;
+  filter: none !important;
+  -webkit-filter: none !important;
+  mix-blend-mode: normal !important;
+  transform: none !important;
+}
+
+/* Author photo looks pale unless hovered: kill overlay/pseudo-elements */
+.author__avatar::before,
+.author__avatar::after,
+.author__avatar a::before,
+.author__avatar a::after{
+  content: none !important;
+  display: none !important;
+  opacity: 0 !important;
+  background: transparent !important;
+}
+
+/* Also force hover to match non-hover */
+.author__avatar:hover,
+.author__avatar:hover a,
+.author__avatar:hover img{
+  opacity: 1 !important;
+  filter: none !important;
+}
