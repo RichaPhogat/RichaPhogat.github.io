@@ -63,7 +63,7 @@ body{
 }
 .masthead a:hover,
 .greedy-nav a:hover{
-  opacity: 0.85;
+  opacity: 1;
 }
 
 /* Site title in dull pink */
@@ -190,7 +190,7 @@ h1, h2, h3, h4,
 }
 
 .page__footer a:hover{
-  opacity: 0.85;
+  opacity: 1;
 }
 
 /* Hide text site title */
