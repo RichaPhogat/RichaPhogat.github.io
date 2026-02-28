@@ -1,8 +1,9 @@
 ---
-title: "Publications"
+title: ""
 permalink: /publications/
 layout: single
 author_profile: true
+classes: publications-page
 ---
 
 
