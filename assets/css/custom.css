@@ -176,3 +176,16 @@ h1, h2, h3, h4,
 .page__content{
   padding-top: 0 !important;
 }
+
+/* Keep only the author photo unfaded */
+.author__avatar img{
+  opacity: 1 !important;
+  filter: none !important;
+  -webkit-filter: none !important;
+}
+
+/* Prevent hover from re-applying any fade */
+.author__avatar img:hover{
+  opacity: 1 !important;
+  filter: none !important;
+}
