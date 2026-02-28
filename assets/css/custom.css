@@ -1,3 +1,65 @@
+/* ===== Palette ===== */
+:root{
+  --cream: #F4EFE6;
+  --sage:  #4F6461;
+  --text:  #2B2B2B;
+  --muted: #7A8288;
+  --pink:  #B07A8C; /* dull pink */
+}
+
+/* ===== Global background + default text ===== */
+body {
+  background: var(--cream) !important;
+  color: var(--text) !important;
+}
+
+/* ===== Masthead (top bar) ===== */
+.masthead {
+  background: var(--sage) !important;
+  border-bottom: none !important;
+}
+
+/* Nav links in masthead */
+.masthead a,
+.masthead a:visited {
+  color: var(--cream) !important;
+}
+
+.masthead a:hover {
+  opacity: 0.85;
+}
+
+/* ===== Make your name "Richa Phogat" dull pink ===== */
+/* Top-left site title */
+.masthead .site-title,
+.masthead .site-title:visited {
+  color: var(--pink) !important;
+}
+
+/* Sidebar author name */
+.author__name {
+  color: var(--pink) !important;
+}
+
+/* ===== Body links ===== */
+.page__content a {
+  color: var(--sage) !important;
+  text-decoration: none;
+}
+.page__content a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Buttons (optional, but matches vibe) ===== */
+.btn, .btn:visited {
+  background: var(--sage) !important;
+  color: var(--cream) !important;
+  border: none !important;
+}
+.btn:hover {
+  opacity: 0.9;
+}
+
 /* Right-align the top navigation items */
 /* --- Masthead layout: title left, nav pushed to the right --- */
 .masthead {
