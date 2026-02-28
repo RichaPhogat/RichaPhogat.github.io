@@ -183,7 +183,7 @@ html, body {
 .greedy-nav,
 .greedy-nav .visible-links,
 .greedy-nav .hidden-links {
-  background: var(--cream) !important;
+  background: var(--sage) !important;
 }
 
 /* Make nav text readable on cream */
@@ -267,4 +267,16 @@ h2, h3{
 .page__content h3 {
   font-size: 1.6rem !important;
   letter-spacing: 0.06em;
+}
+
+/* ===== Remove the big green hero/intro stripe entirely ===== */
+.page__hero,
+.page__hero--overlay,
+.page__hero--large {
+  display: none !important;
+}
+
+/* Remove extra spacing that the hero sometimes leaves behind */
+.page__content {
+  padding-top: 0 !important;
 }
