@@ -166,3 +166,27 @@ html, body {
   padding-bottom: 2rem !important;
   min-height: 0 !important;
 }
+
+/* Make the top nav strip match the page background (cream) */
+.masthead,
+.masthead__inner-wrap,
+.masthead__menu {
+  background: var(--cream) !important;
+  box-shadow: none !important;
+  border-bottom: none !important;
+}
+
+/* Nav link colors for cream background */
+.masthead a,
+.masthead a:visited {
+  color: var(--text) !important;
+}
+.masthead a:hover {
+  color: var(--sage) !important;
+}
+
+/* Keep your name dull pink */
+.masthead .site-title,
+.masthead .site-title:visited {
+  color: var(--pink) !important;
+}
