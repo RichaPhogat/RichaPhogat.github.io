@@ -190,3 +190,6 @@ html, body {
 .masthead .site-title:visited {
   color: var(--pink) !important;
 }
+.masthead__menu ul {
+  background: transparent !important;
+}
