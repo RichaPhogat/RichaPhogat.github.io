@@ -194,3 +194,39 @@ h1, h2, h3, h4,
   filter: none !important;
   -webkit-filter: none !important;
 }
+
+/* =========================================
+   HOMEPAGE / SINGLE LAYOUT WIDTH TWEAK
+   Make main text use more of the right side
+   while keeping mobile responsive
+========================================= */
+
+@media (min-width: 64em) {
+  .layout--single .sidebar {
+    width: 16rem !important;
+    padding-right: 2rem !important;
+  }
+
+  .layout--single .page {
+    width: calc(100% - 18rem) !important;
+    padding-right: 0 !important;
+  }
+
+  .layout--single .page__inner-wrap {
+    max-width: 100% !important;
+  }
+
+  .layout--single .page__content {
+    max-width: 100% !important;
+  }
+}
+
+@media (max-width: 63.9375em) {
+  .layout--single .sidebar,
+  .layout--single .page,
+  .layout--single .page__inner-wrap,
+  .layout--single .page__content {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}
