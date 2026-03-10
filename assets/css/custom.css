@@ -260,3 +260,33 @@ h1, h2, h3, h4,
   margin-top: 1.5rem !important;
   padding-top: 1.5rem !important;
 }
+
+/* ===== Homepage: tighten gap before footer ===== */
+.layout--single .page {
+  padding-bottom: 0 !important;
+}
+
+.layout--single .page__inner-wrap {
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.layout--single .page__content {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.layout--single .page__content > *:last-child {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.page__footer {
+  margin-top: 0 !important;
+  padding-top: 0.5rem !important;
+}
+
+.page__footer footer {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
