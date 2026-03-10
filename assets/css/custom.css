@@ -195,46 +195,21 @@ h1, h2, h3, h4,
   -webkit-filter: none !important;
 }
 
-/* ===== Better homepage width balance ===== */
+/* ===== Safer homepage text-width fix ===== */
+/* Keep the theme layout intact. Only let the written content use more width. */
+
 @media (min-width: 64em) {
-  .layout--single {
-    display: flex;
-    align-items: flex-start;
-  }
-
-  .layout--single .sidebar {
-    width: 220px !important;
-    margin-right: 2rem !important;
-  }
-
-  .layout--single .page {
-    flex: 1 1 auto !important;
-    width: auto !important;
-    min-width: 0 !important;
-  }
-
   .layout--single .page__inner-wrap {
-    max-width: none !important;
-    width: 100% !important;
-  }
-
-  .layout--single .page__content {
-    max-width: none !important;
-    width: 100% !important;
-  }
-}
-
-@media (max-width: 63.9375em) {
-  .layout--single {
-    display: block;
-  }
-
-  .layout--single .sidebar,
-  .layout--single .page,
-  .layout--single .page__inner-wrap,
-  .layout--single .page__content {
-    width: 100% !important;
     max-width: 100% !important;
-    margin-right: 0 !important;
+  }
+
+  .layout--single .page__content {
+    max-width: 100% !important;
+  }
+
+  .layout--single .page__content p,
+  .layout--single .page__content li,
+  .layout--single .page__content dl {
+    max-width: 100% !important;
   }
 }
