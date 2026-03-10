@@ -241,3 +241,22 @@ h1, h2, h3, h4,
     max-width: 100% !important;
   }
 }
+
+/* ===== Reduce empty space before footer on homepage ===== */
+.layout--single .page {
+  padding-bottom: 1rem !important;
+}
+
+.layout--single .page__content {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.layout--single .page__content > *:last-child {
+  margin-bottom: 0 !important;
+}
+
+.page__footer {
+  margin-top: 1.5rem !important;
+  padding-top: 1.5rem !important;
+}
