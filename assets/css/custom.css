@@ -213,3 +213,31 @@ h1, h2, h3, h4,
     max-width: 100% !important;
   }
 }
+
+/* ===== Homepage: make intro column wider on desktop ===== */
+@media (min-width: 80em) {
+  .layout--single .page {
+    width: calc(100% - 260px) !important;
+    padding-right: 2rem !important;
+  }
+
+  .layout--single .page__inner-wrap {
+    max-width: 100% !important;
+  }
+
+  .layout--single .page__content {
+    max-width: 100% !important;
+  }
+}
+
+@media (max-width: 79.9375em) {
+  .layout--single .page {
+    width: 100% !important;
+    padding-right: 0 !important;
+  }
+
+  .layout--single .page__inner-wrap,
+  .layout--single .page__content {
+    max-width: 100% !important;
+  }
+}
