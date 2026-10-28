@@ -292,22 +292,26 @@ h1, h2, h3, h4,
 }
 
 /* ==========================================
-   ACTIVE NAVIGATION TAB
+   ACTIVE NAVIGATION TAB - CORRECTED
    ========================================== */
 
-/* Home should not always be bold */
-.greedy-nav .visible-links li:first-child {
-  font-weight: 400;
-}
-
-/* All inactive navigation items */
+/* Remove the theme's permanent bold styling on Home */
+.greedy-nav .visible-links li:first-child,
 .greedy-nav .visible-links li,
 .greedy-nav .hidden-links li {
-  font-weight: 400;
+  font-weight: 400 !important;
 }
 
-/* Only the currently selected page is bold */
+/* All navigation links are normal by default */
+.greedy-nav .visible-links li a,
+.greedy-nav .hidden-links li a {
+  font-weight: 400 !important;
+}
+
+/* Make only the currently active page bold */
 .greedy-nav .visible-links li.is-active,
-.greedy-nav .hidden-links li.is-active {
-  font-weight: 700;
+.greedy-nav .hidden-links li.is-active,
+.greedy-nav .visible-links li.is-active a,
+.greedy-nav .hidden-links li.is-active a {
+  font-weight: 700 !important;
 }
