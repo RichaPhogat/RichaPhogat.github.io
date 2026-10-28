@@ -7,21 +7,22 @@ classes: publications-page
 ---
 
 <style>
-
-<style>
-.author-highlight {
-  color: #b56576;
+.pub-list .author-highlight {
+  color: #b56576 !important;
   font-weight: 600;
 }
+
 .pub-list {
   color: #6f777d;
 }
+
 .pub-list em {
   font-style: italic;
 }
 </style>
 
 <div class="pub-list">
+
 
 <h2>2025</h2>
 
