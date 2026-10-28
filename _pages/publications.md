@@ -1,4 +1,3 @@
-
 ---
 title: ""
 permalink: /publications/
@@ -6,6 +5,8 @@ layout: splash
 header: false
 classes: publications-page
 ---
+
+<style>
 
 <style>
 .author-highlight {
