@@ -290,3 +290,24 @@ h1, h2, h3, h4,
   margin-top: 0 !important;
   padding-top: 0 !important;
 }
+
+/* ==========================================
+   ACTIVE NAVIGATION TAB
+   ========================================== */
+
+/* Home should not always be bold */
+.greedy-nav .visible-links li:first-child {
+  font-weight: 400;
+}
+
+/* All inactive navigation items */
+.greedy-nav .visible-links li,
+.greedy-nav .hidden-links li {
+  font-weight: 400;
+}
+
+/* Only the currently selected page is bold */
+.greedy-nav .visible-links li.is-active,
+.greedy-nav .hidden-links li.is-active {
+  font-weight: 700;
+}
